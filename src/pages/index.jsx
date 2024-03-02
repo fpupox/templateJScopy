@@ -1,12 +1,10 @@
-import { Jumbotron } from "@/components/Jumbotron";
-import Link from "next/link";
-import { Container } from "react-bootstrap";
+import { CounterContainer } from "@/components/CounterContainer";
+import { Button, Container, Row, Col } from "react-bootstrap";
 
-export default function Home() {
+export default function () {
   return (
     <Container>
-      <Jumbotron />
-      <Link href="/about">About</Link>
+      <CounterContainer/>
     </Container>
   );
 }
