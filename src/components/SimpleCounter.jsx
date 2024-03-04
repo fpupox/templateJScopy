@@ -10,7 +10,7 @@ export function SimpleCounter(props) {
 
   return (
     <Row>
-      <Col>{d6}</Col>
+      <Col><div style={{backgroundColor:"gray"}}>{d6}</div></Col>
       <Col>{d5}</Col>
       <Col>{d4}</Col>
       <Col>{d3}</Col>
